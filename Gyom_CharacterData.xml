@@ -1,499 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CharacterData>
-  <CharacterCampaignData name="lunaluna" address="STEAM_1:0:77385265" accountid="STEAM_1:0:77385265">
-    <Character name="onetruecookie" originalname="onetruecookie" speciesname="human" tags="head5,female" salary="3212" experiencepoints="3291" additionaltalentpoints="0" hairindex="9" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="222,215,204,255" facialhaircolor="123,132,120,255" startitemsgiven="false" personality="joker" missionscompletedsincedeath="20" hull="1680">
-      <job name="Mechanic" identifier="mechanic">
-        <skill identifier="mechanical" level="55.485703" />
-        <skill identifier="electrical" level="43.79178" />
-        <skill identifier="weapons" level="33.643967" />
-        <skill identifier="medical" level="26.772224" />
-        <skill identifier="helm" level="11.004066" />
-      </job>
-      <savedstatvalues>
-        <savedstatvalue stattype="None" statidentifier="machinemaniac_30" statvalue="1" removeondeath="false" />
-        <savedstatvalue stattype="None" statidentifier="machinemaniac_50" statvalue="1" removeondeath="false" />
-        <savedstatvalue stattype="None" statidentifier="machinemaniac_100" statvalue="1" removeondeath="false" />
-        <savedstatvalue stattype="None" statidentifier="machinemaniac_counter" statvalue="28" removeondeath="false" />
-        <savedstatvalue stattype="StoreSellMultiplier" statidentifier="travelingtradesman" statvalue="0.2" removeondeath="false" />
-      </savedstatvalues>
-      <Talents version="1.4.6.0">
-        <Talent identifier="machinemaniac" />
-        <Talent identifier="safetyfirst" />
-        <Talent identifier="retrofit" />
-      </Talents>
-    </Character>
-    <inventory>
-      <Item name="" identifier="idcard" ID="3702" markedfordeconstruction="false" rect="-1416,-680,16,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="1" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,identitycard,name:onetruecookie,id_mechanic,jobid:mechanic" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.5" HiddenInGame="False" conditionpercentage="100" i="0">
-        <IdCard TeamID="Team1" OwnerTags="head5,female" OwnerName="onetruecookie" OwnerJobId="mechanic" OwnerHairIndex="9" OwnerBeardIndex="0" OwnerMoustacheIndex="0" OwnerFaceAttachmentIndex="0" OwnerHairColor="222,215,204,255" OwnerFacialHairColor="123,132,120,255" OwnerSkinColor="243,198,150,255" OwnerSheetIndex="0,1" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-      <Item name="" identifier="headset" ID="3703" markedfordeconstruction="false" rect="-1420,-672,24,31" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,mobileradio" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-        <WifiComponent TeamID="Team1" Range="35000" Channel="0" AllowCrossTeamCommunication="False" LinkToChat="True" MinChatMessageInterval="0" DiscardDuplicateChatMessages="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" channelmemory="0,1,2,3,4,5,6,7,8,9" />
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="baseballcap" ID="3704" markedfordeconstruction="false" rect="-1426,-678,35,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="bluejumpsuit2" ID="3705" markedfordeconstruction="false" rect="-1438,-674,60,28" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="safetyharness" ID="3706" markedfordeconstruction="false" rect="-1433,-681,50,14" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.35" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="4">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="toolbelt" ID="3707" markedfordeconstruction="false" rect="-1436,-674,56,27" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,mediumitem,mobilecontainer" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="7">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3708,,3709,3710,3711," ExtraStackSize="0" />
-        <itemstats />
-        <inventory>
-          <Item name="" identifier="weldingfueltank" ID="3708" markedfordeconstruction="false" rect="-1413,-672,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingfuel,weldingtoolfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="12.591748" i="0">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="weldingfueltank" ID="3709" markedfordeconstruction="false" rect="-1413,-672,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingfuel,weldingtoolfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="2">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="oxygentank" ID="3710" markedfordeconstruction="false" rect="-1413,-672,12,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="oxygensource,smallitem,refillableoxygensource" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="3">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="titaniumaluminiumalloy" ID="3711" markedfordeconstruction="false" rect="-1418,-683,22,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" OriginalOutpost="LocationName.city.2360" Tags="petfood3,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="4">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="screwdriver" ID="3712" markedfordeconstruction="false" flippedx="true" rect="-1424,-684,32,7" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" OriginalOutpost="LocationName.city.5528" Tags="electricalrepairtool,smallitem,simpletool,tool,screwdriveritem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="8">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="wrench" ID="3713" markedfordeconstruction="false" flippedx="true" rect="-1424,-683,32,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" OriginalOutpost="LocationName.generic.8872" Tags="mechanicalrepairtool,smallitem,simpletool,wrenchitem,tool,mountableweapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="9">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="bikehorn" ID="3714" markedfordeconstruction="false" rect="-1421,-682,26,11" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,clowns,hornitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="10">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="weldingtool" ID="3715" markedfordeconstruction="false" flippedx="true" rect="-1446,-666,76,44" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" OriginalOutpost="LocationName.generic.7453" Tags="smallitem,weldingequipment,tool,mountableweapon,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <LightComponent Range="150" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.5" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="255,229,178,100" MinVoltage="0" PowerConsumption="0" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <RepairTool BarrelRotation="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="oxygensource,weldingtoolfuel" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </RepairTool>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3716" ExtraStackSize="0" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <inventory>
-          <Item name="" identifier="weldingfueltank" ID="3716" markedfordeconstruction="false" flippedx="true" rect="-1417,-689,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingfuel,weldingtoolfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="90.918884" i="0">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="harpoongun" ID="3717" markedfordeconstruction="false" flippedx="true" rect="-1453,-678,90,19" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="gunsmith,mediumitem,mountableweapon,weapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="harpoonammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </RangedWeapon>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3718;3719;3720;3721;3722;3723," ExtraStackSize="0" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <itemstats />
-        <inventory>
-          <Item name="" identifier="spear" ID="3718" markedfordeconstruction="false" flippedx="true" rect="-1463,-691,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3719" markedfordeconstruction="false" flippedx="true" rect="-1463,-689,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3720" markedfordeconstruction="false" flippedx="true" rect="-1463,-687,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3721" markedfordeconstruction="false" flippedx="true" rect="-1463,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3722" markedfordeconstruction="false" flippedx="true" rect="-1463,-683,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3723" markedfordeconstruction="false" flippedx="true" rect="-1463,-681,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="antidama1" ID="3724" markedfordeconstruction="false" rect="-1417,-671,18,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="chem,smallitem,medical,syringe" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="15">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="antidama1" ID="3725" markedfordeconstruction="false" rect="-1417,-671,18,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="chem,smallitem,medical,syringe" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="15">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="antibleeding1" ID="3726" markedfordeconstruction="false" rect="-1415,-677,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="16">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-      <Item name="" identifier="antibleeding1" ID="3727" markedfordeconstruction="false" rect="-1415,-677,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="16">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-      <Item name="" identifier="antibloodloss1" ID="3728" markedfordeconstruction="false" rect="-1429,-676,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood3,chem,petfood2,petfood1,smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="17">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-      <Item name="" identifier="antibloodloss1" ID="3729" markedfordeconstruction="false" rect="-1429,-676,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood3,chem,petfood2,petfood1,smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="17">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-    </inventory>
-    <health>
-      <Affliction identifier="inspirationalleader" strength="1" />
-      <Affliction identifier="camaraderie" strength="1" />
-      <LimbHealth i="0" />
-      <LimbHealth i="1" />
-      <LimbHealth i="2" />
-      <LimbHealth i="3" />
-      <LimbHealth i="4" />
-      <LimbHealth i="5">
-        <Affliction identifier="blunttrauma" strength="0.4117744" />
-      </LimbHealth>
-    </health>
-    <orders />
-    <Wallet balance="1654" rewarddistribution="20" />
-  </CharacterCampaignData>
-  <CharacterCampaignData name="ownez" address="STEAM_1:1:40364899" accountid="STEAM_1:1:40364899">
-    <Character name="ownez" originalname="ownez" speciesname="human" tags="head2,male" salary="3308" experiencepoints="3456" additionaltalentpoints="0" hairindex="15" beardindex="11" moustacheindex="0" faceattachmentindex="8" skincolor="83,45,18,255" haircolor="172,73,52,255" facialhaircolor="172,73,52,255" startitemsgiven="false" personality="professional" missionscompletedsincedeath="20" hull="1680">
-      <job name="Captain" identifier="captain">
-        <skill identifier="helm" level="50.77902" />
-        <skill identifier="weapons" level="38.390926" />
-        <skill identifier="mechanical" level="51.321255" />
-        <skill identifier="electrical" level="33.896656" />
-        <skill identifier="medical" level="14.037895" />
-      </job>
-      <savedstatvalues>
-        <savedstatvalue stattype="StoreSellMultiplier" statidentifier="travelingtradesman" statvalue="0.2" removeondeath="false" />
-      </savedstatvalues>
-      <Talents version="1.4.6.0">
-        <Talent identifier="inspirationalleader" />
-        <Talent identifier="travelingtradesman" />
-        <Talent identifier="camaraderie" />
-      </Talents>
-    </Character>
-    <inventory>
-      <Item name="" identifier="idcard" ID="3731" markedfordeconstruction="false" rect="-1385,-680,16,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="1" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,identitycard,name:ownez,id_captain,jobid:captain" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.5" HiddenInGame="False" conditionpercentage="100" i="0">
-        <IdCard TeamID="Team1" OwnerTags="head2,male" OwnerName="ownez" OwnerJobId="captain" OwnerHairIndex="15" OwnerBeardIndex="11" OwnerMoustacheIndex="0" OwnerFaceAttachmentIndex="8" OwnerHairColor="172,73,52,255" OwnerFacialHairColor="172,73,52,255" OwnerSkinColor="83,45,18,255" OwnerSheetIndex="1,0" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-      </Item>
-      <Item name="" identifier="headset" ID="3732" markedfordeconstruction="false" rect="-1389,-672,24,31" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,mobileradio" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-        <WifiComponent TeamID="Team1" Range="35000" Channel="0" AllowCrossTeamCommunication="False" LinkToChat="True" MinChatMessageInterval="0" DiscardDuplicateChatMessages="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" channelmemory="0,1,2,3,4,5,6,7,8,9" />
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="captainscap1" ID="3733" markedfordeconstruction="false" rect="-1394,-678,35,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="captainsuniform1" ID="3734" markedfordeconstruction="false" rect="-1408,-669,62,38" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
-      </Item>
-      <Item name="" identifier="toolbelt" ID="3735" markedfordeconstruction="false" rect="-1405,-674,56,27" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,mediumitem,mobilecontainer" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="7">
-        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3736,3737;3738;3739;3740;3741;3742;3743,3744,3745;3746,3747,3748;3749;3750;3751;3752;3753;3754;3755;3756;3757;3758;3759" ExtraStackSize="0" />
-        <itemstats />
-        <inventory>
-          <Item name="" identifier="oxygentank" ID="3736" markedfordeconstruction="false" rect="-1381,-672,12,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="oxygensource,smallitem,refillableoxygensource" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="99.98629" i="0">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3737" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3738" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3739" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3740" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3741" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3742" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibleeding1" ID="3743" markedfordeconstruction="false" rect="-1381,-678,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="adrenaline" ID="3744" markedfordeconstruction="false" rect="-1384,-670,18,36" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="chem,smallitem,medical,syringe" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
-            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="antibloodloss1" ID="3745" markedfordeconstruction="false" rect="-1395,-677,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood3,chem,petfood2,petfood1,smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="antibloodloss1" ID="3746" markedfordeconstruction="false" rect="-1395,-677,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood3,chem,petfood2,petfood1,smallitem,medical" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-          </Item>
-          <Item name="" identifier="weldingfueltank" ID="3747" markedfordeconstruction="false" rect="-1380,-672,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingfuel,weldingtoolfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="4">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3748" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3749" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3750" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3751" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3752" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3753" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3754" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3755" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3756" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3757" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3758" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3759" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="underwaterscooter" ID="3760" markedfordeconstruction="false" flippedx="true" rect="-1412,-662,70,51" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="scooter,provocative,smallitem,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="8">
-        <LightComponent Range="500" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="220,255,150,200" MinVoltage="0.5" PowerConsumption="10" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Propulsion Force="150" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="mobilebattery" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </Propulsion>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3761" ExtraStackSize="0" />
-        <inventory>
-          <Item name="" identifier="batterycell" ID="3761" markedfordeconstruction="false" flippedx="true" rect="-1383,-683,17,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,mobilebattery,loadable" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="93.379974" i="0">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="revolver" ID="3762" markedfordeconstruction="false" rect="-1396,-678,38,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="gunsmith,smallitem,gun,pistolitem,mountableweapon,weapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="9">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <RangedWeapon Penetration="0" DualWieldReloadTimePenaltyMultiplier="1.75" DualWieldAccuracyPenalty="8" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="revolverammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </RangedWeapon>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3763;3764;3765;3766;3767;3768" ExtraStackSize="0" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <itemstats />
-        <inventory>
-          <Item name="" identifier="revolverround" ID="3763" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3764" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3765" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3766" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3767" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="revolverround" ID="3768" markedfordeconstruction="false" rect="-1380,-687,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,pistolammoitem,revolverammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="harpoongun" ID="3769" markedfordeconstruction="false" rect="-1422,-678,90,19" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="gunsmith,mediumitem,mountableweapon,weapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="10">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="harpoonammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </RangedWeapon>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3770;3771;3772;3773;3774;3775,3776" ExtraStackSize="0" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <itemstats />
-        <inventory>
-          <Item name="" identifier="spear" ID="3770" markedfordeconstruction="false" rect="-1403,-691,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3771" markedfordeconstruction="false" rect="-1403,-689,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3772" markedfordeconstruction="false" rect="-1403,-687,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3773" markedfordeconstruction="false" rect="-1403,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3774" markedfordeconstruction="false" rect="-1403,-683,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="spear" ID="3775" markedfordeconstruction="false" rect="-1403,-681,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
-            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-          <Item name="" identifier="flashlight" ID="3776" markedfordeconstruction="false" rect="-1369,-672,24,9" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="provocative,smallitem,tool,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="1">
-            <LightComponent Range="800" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.02" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="127,127,127,255" MinVoltage="0.5" PowerConsumption="10" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <LightComponent Range="800" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.8" FlickerSpeed="1" PulseFrequency="0.1" PulseAmount="0.5" BlinkFrequency="0" LightColor="127,127,127,255" MinVoltage="0.5" PowerConsumption="10" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3777" ExtraStackSize="0" />
-            <inventory>
-              <Item name="" identifier="batterycell" ID="3777" markedfordeconstruction="false" rect="-1365,-671,17,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,mobilebattery,loadable" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="91.34815" i="0">
-                <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-                <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-              </Item>
-            </inventory>
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="spear" ID="3778" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3779" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3780" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3781" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3782" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3783" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3784" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3785" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3786" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3787" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3788" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="spear" ID="3789" markedfordeconstruction="false" rect="-1419,-685,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="harpoonammo,mediumitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
-        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="weldingtool" ID="3790" markedfordeconstruction="false" flippedx="true" rect="-1415,-666,76,44" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingequipment,tool,mountableweapon,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="15">
-        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <LightComponent Range="150" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.5" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="255,229,178,100" MinVoltage="0" PowerConsumption="0" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <RepairTool BarrelRotation="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
-          <requireditem items="oxygensource,weldingtoolfuel" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
-        </RepairTool>
-        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3791" ExtraStackSize="0" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-        <inventory>
-          <Item name="" identifier="weldingfueltank" ID="3791" markedfordeconstruction="false" flippedx="true" rect="-1384,-689,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem,weldingfuel,weldingtoolfuel" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="23.960415" i="0">
-            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-          </Item>
-        </inventory>
-      </Item>
-      <Item name="" identifier="screwdriver" ID="3792" markedfordeconstruction="false" flippedx="true" rect="-1393,-684,32,7" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="electricalrepairtool,smallitem,simpletool,tool,screwdriveritem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="16">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-      <Item name="" identifier="wrench" ID="3793" markedfordeconstruction="false" flippedx="true" rect="-1393,-683,32,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mechanicalrepairtool,smallitem,simpletool,wrenchitem,tool,mountableweapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="17">
-        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
-        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
-      </Item>
-    </inventory>
-    <health>
-      <Affliction identifier="inspirationalleader" strength="1" />
-      <Affliction identifier="camaraderie" strength="1" />
-      <LimbHealth i="0" />
-      <LimbHealth i="1" />
-      <LimbHealth i="2" />
-      <LimbHealth i="3" />
-      <LimbHealth i="4" />
-      <LimbHealth i="5" />
-    </health>
-    <orders />
-    <Wallet balance="1249" rewarddistribution="20" />
-  </CharacterCampaignData>
   <CharacterCampaignData name="Gyom" address="STEAM_1:0:34586874" accountid="STEAM_1:0:34586874">
-    <Character name="Gyom" originalname="Gyom" speciesname="human" tags="head16,male" salary="3846" experiencepoints="1907" additionaltalentpoints="0" hairindex="12" beardindex="9" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="139,126,108,255" facialhaircolor="216,186,133,255" startitemsgiven="false" personality="professional" missionscompletedsincedeath="2" hull="1792">
+    <Character name="Gyom" originalname="Gyom" speciesname="human" tags="male,head16" salary="3846" experiencepoints="1907" additionaltalentpoints="0" hairindex="12" beardindex="9" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="139,126,108,255" facialhaircolor="216,186,133,255" startitemsgiven="false" personality="professional" missionscompletedsincedeath="2">
       <job name="Engineer" identifier="engineer">
         <skill identifier="electrical" level="56.017696" />
         <skill identifier="mechanical" level="39.739197" />
@@ -660,7 +168,7 @@
     <Wallet balance="0" rewarddistribution="0" />
   </CharacterCampaignData>
   <CharacterCampaignData name="PixieMillie" address="STEAM_1:1:27841619" accountid="STEAM_1:1:27841619">
-    <Character name="PixieMillie" originalname="PixieMillie" speciesname="human" tags="head16,female" salary="2953" experiencepoints="2717" additionaltalentpoints="0" hairindex="10" beardindex="0" moustacheindex="0" faceattachmentindex="11" skincolor="244,190,152,255" haircolor="172,73,52,255" facialhaircolor="199,125,82,255" startitemsgiven="false" personality="brokenenglish" missionscompletedsincedeath="17" hull="1792">
+    <Character name="PixieMillie" originalname="PixieMillie" speciesname="human" tags="head16,female" salary="2953" experiencepoints="2717" additionaltalentpoints="0" hairindex="10" beardindex="0" moustacheindex="0" faceattachmentindex="11" skincolor="244,190,152,255" haircolor="172,73,52,255" facialhaircolor="199,125,82,255" startitemsgiven="false" personality="brokenenglish" missionscompletedsincedeath="17">
       <job name="Medical Doctor" identifier="medicaldoctor">
         <skill identifier="medical" level="52.78663" />
         <skill identifier="weapons" level="26.336773" />
@@ -944,7 +452,7 @@
     <Wallet balance="835" rewarddistribution="20" />
   </CharacterCampaignData>
   <CharacterCampaignData name="DrSloughKeg" address="STEAM_1:0:20471541" accountid="STEAM_1:0:20471541">
-    <Character name="DrSloughKeg" originalname="DrSloughKeg" speciesname="human" tags="male,head10" salary="2808" experiencepoints="2939" additionaltalentpoints="0" hairindex="15" beardindex="9" moustacheindex="0" faceattachmentindex="9" skincolor="252,225,198,255" haircolor="172,73,52,255" facialhaircolor="161,88,55,255" startitemsgiven="false" personality="rude" missionscompletedsincedeath="18" hull="33">
+    <Character name="DrSloughKeg" originalname="DrSloughKeg" speciesname="human" tags="male,head10" salary="2808" experiencepoints="2939" additionaltalentpoints="0" hairindex="15" beardindex="9" moustacheindex="0" faceattachmentindex="9" skincolor="252,225,198,255" haircolor="172,73,52,255" facialhaircolor="161,88,55,255" startitemsgiven="false" personality="rude" missionscompletedsincedeath="18">
       <job name="Security Officer" identifier="securityofficer">
         <skill identifier="weapons" level="48.34876" />
         <skill identifier="medical" level="30.522602" />
@@ -1127,5 +635,497 @@
     </health>
     <orders />
     <Wallet balance="2797" rewarddistribution="20" />
+  </CharacterCampaignData>
+  <CharacterCampaignData name="DrSloughKeg" address="STEAM_1:0:77385265" accountid="STEAM_1:0:77385265">
+    <Character name="onetruecookie" originalname="onetruecookie" speciesname="human" tags="female,head5" salary="3212" experiencepoints="3291" additionaltalentpoints="0" hairindex="9" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="243,198,150,255" haircolor="222,215,204,255" facialhaircolor="123,132,120,255" startitemsgiven="false" personality="joker" missionscompletedsincedeath="20" hull="212">
+      <job name="Mechanic" identifier="mechanic">
+        <skill identifier="mechanical" level="55.485703" />
+        <skill identifier="electrical" level="43.79178" />
+        <skill identifier="weapons" level="33.643967" />
+        <skill identifier="medical" level="26.772224" />
+        <skill identifier="helm" level="11.004066" />
+      </job>
+      <savedstatvalues>
+        <savedstatvalue stattype="None" statidentifier="machinemaniac_30" statvalue="1" removeondeath="false" />
+        <savedstatvalue stattype="None" statidentifier="machinemaniac_50" statvalue="1" removeondeath="false" />
+        <savedstatvalue stattype="None" statidentifier="machinemaniac_100" statvalue="1" removeondeath="false" />
+        <savedstatvalue stattype="None" statidentifier="machinemaniac_counter" statvalue="28" removeondeath="false" />
+        <savedstatvalue stattype="StoreSellMultiplier" statidentifier="travelingtradesman" statvalue="0.2" removeondeath="false" />
+      </savedstatvalues>
+      <Talents version="1.4.6.0">
+        <Talent identifier="machinemaniac" />
+        <Talent identifier="safetyfirst" />
+        <Talent identifier="retrofit" />
+      </Talents>
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="3702" markedfordeconstruction="false" rect="-1323,5,16,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="1" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="identitycard,smallitem,name:onetruecookie,id_mechanic,jobid:mechanic" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.5" HiddenInGame="False" conditionpercentage="100" i="0">
+        <IdCard TeamID="Team1" OwnerTags="female,head5" OwnerName="onetruecookie" OwnerJobId="mechanic" OwnerHairIndex="9" OwnerBeardIndex="0" OwnerMoustacheIndex="0" OwnerFaceAttachmentIndex="0" OwnerHairColor="222,215,204,255" OwnerFacialHairColor="123,132,120,255" OwnerSkinColor="243,198,150,255" OwnerSheetIndex="0,1" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="3703" markedfordeconstruction="false" rect="-1327,13,24,31" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mobileradio,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+        <WifiComponent TeamID="Team1" Range="35000" Channel="0" AllowCrossTeamCommunication="False" LinkToChat="True" MinChatMessageInterval="0" DiscardDuplicateChatMessages="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" channelmemory="0,1,2,3,4,5,6,7,8,9" />
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="baseballcap" ID="3704" markedfordeconstruction="false" rect="-1332,7,35,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="bluejumpsuit2" ID="3705" markedfordeconstruction="false" rect="-1345,11,60,28" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="safetyharness" ID="3706" markedfordeconstruction="false" rect="-1340,4,50,14" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.35" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="4">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="toolbelt" ID="3707" markedfordeconstruction="false" rect="-1343,11,56,27" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,tool,mobilecontainer" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="7">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3708,,3709,3710,3711," ExtraStackSize="0" />
+        <itemstats />
+        <inventory>
+          <Item name="" identifier="weldingfueltank" ID="3708" markedfordeconstruction="false" rect="-1318,13,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="weldingfuel,weldingtoolfuel,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="12.591748" i="0">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="weldingfueltank" ID="3709" markedfordeconstruction="false" rect="-1318,13,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="weldingfuel,weldingtoolfuel,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="2">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="oxygentank" ID="3710" markedfordeconstruction="false" rect="-1318,13,12,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="refillableoxygensource,oxygensource,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="3">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="titaniumaluminiumalloy" ID="3711" markedfordeconstruction="false" rect="-1323,2,22,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" OriginalOutpost="LocationName.city.2360" Tags="petfood3,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="4">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="screwdriver" ID="3712" markedfordeconstruction="false" rect="-1331,1,32,7" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" OriginalOutpost="LocationName.city.5528" Tags="screwdriveritem,tool,electricalrepairtool,smallitem,simpletool" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="8">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="wrench" ID="3713" markedfordeconstruction="false" rect="-1331,2,32,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" OriginalOutpost="LocationName.generic.8872" Tags="wrenchitem,tool,mechanicalrepairtool,mountableweapon,smallitem,simpletool" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="9">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="bikehorn" ID="3714" markedfordeconstruction="false" rect="-1328,3,26,11" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="hornitem,clowns,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="10">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="weldingtool" ID="3715" markedfordeconstruction="false" rect="-1353,19,76,44" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" AllowStealing="False" OriginalOutpost="LocationName.generic.7453" Tags="tool,mountableweapon,weldingequipment,smallitem,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <LightComponent Range="150" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.5" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="255,229,178,100" MinVoltage="0" PowerConsumption="0" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <RepairTool BarrelRotation="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="weldingtoolfuel,oxygensource" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </RepairTool>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3716" ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <inventory>
+          <Item name="" identifier="weldingfueltank" ID="3716" markedfordeconstruction="false" flippedx="true" rect="-1317,-4,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="weldingfuel,weldingtoolfuel,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="90.918884" i="0">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="harpoongun" ID="3717" markedfordeconstruction="false" rect="-1360,7,90,19" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,gunsmith,mountableweapon,weapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="harpoonammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </RangedWeapon>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3718;3719;3720;3721;3722;3723," ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <itemstats />
+        <inventory>
+          <Item name="" identifier="spear" ID="3718" markedfordeconstruction="false" flippedx="true" rect="-1344,-6,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3719" markedfordeconstruction="false" flippedx="true" rect="-1344,-4,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3720" markedfordeconstruction="false" flippedx="true" rect="-1344,-2,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3721" markedfordeconstruction="false" flippedx="true" rect="-1344,0,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3722" markedfordeconstruction="false" flippedx="true" rect="-1344,2,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3723" markedfordeconstruction="false" flippedx="true" rect="-1344,4,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="antidama1" ID="3724" markedfordeconstruction="false" rect="-1324,14,18,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="syringe,chem,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="15">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="antidama1" ID="3725" markedfordeconstruction="false" rect="-1324,14,18,34" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="syringe,chem,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="15">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="antibloodloss1" ID="3728" markedfordeconstruction="false" rect="-1335,9,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood1,petfood3,chem,petfood2,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="16">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="antibloodloss1" ID="3729" markedfordeconstruction="false" rect="-1335,9,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood1,petfood3,chem,petfood2,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="16">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="antibleeding1" ID="3726" markedfordeconstruction="false" rect="-1321,8,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="17">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="antibleeding1" ID="3727" markedfordeconstruction="false" rect="-1321,8,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="17">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+    </inventory>
+    <health>
+      <Affliction identifier="inspirationalleader" strength="1" />
+      <Affliction identifier="camaraderie" strength="1" />
+      <LimbHealth i="0" />
+      <LimbHealth i="1" />
+      <LimbHealth i="2" />
+      <LimbHealth i="3" />
+      <LimbHealth i="4" />
+      <LimbHealth i="5">
+        <Affliction identifier="blunttrauma" strength="0.4117744" />
+      </LimbHealth>
+    </health>
+    <orders />
+    <Wallet balance="1654" rewarddistribution="20" />
+  </CharacterCampaignData>
+  <CharacterCampaignData name="ownez" address="STEAM_1:1:40364899" accountid="STEAM_1:1:40364899">
+    <Character name="ownez" originalname="ownez" speciesname="human" tags="male,head2" salary="3308" experiencepoints="3456" additionaltalentpoints="0" hairindex="15" beardindex="11" moustacheindex="0" faceattachmentindex="8" skincolor="83,45,18,255" haircolor="172,73,52,255" facialhaircolor="172,73,52,255" startitemsgiven="false" personality="professional" missionscompletedsincedeath="20" hull="486">
+      <job name="Captain" identifier="captain">
+        <skill identifier="helm" level="50.77902" />
+        <skill identifier="weapons" level="39.05704" />
+        <skill identifier="mechanical" level="51.43005" />
+        <skill identifier="electrical" level="33.896656" />
+        <skill identifier="medical" level="14.037895" />
+      </job>
+      <savedstatvalues>
+        <savedstatvalue stattype="StoreSellMultiplier" statidentifier="travelingtradesman" statvalue="0.2" removeondeath="false" />
+      </savedstatvalues>
+      <Talents version="1.4.6.0">
+        <Talent identifier="inspirationalleader" />
+        <Talent identifier="travelingtradesman" />
+        <Talent identifier="camaraderie" />
+      </Talents>
+    </Character>
+    <inventory>
+      <Item name="" identifier="idcard" ID="3731" markedfordeconstruction="false" rect="-735,5,16,16" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="1" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="identitycard,smallitem,name:ownez,id_captain,jobid:captain" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.5" HiddenInGame="False" conditionpercentage="100" i="0">
+        <IdCard TeamID="Team1" OwnerTags="male,head2" OwnerName="ownez" OwnerJobId="captain" OwnerHairIndex="15" OwnerBeardIndex="11" OwnerMoustacheIndex="0" OwnerFaceAttachmentIndex="8" OwnerHairColor="172,73,52,255" OwnerFacialHairColor="172,73,52,255" OwnerSkinColor="83,45,18,255" OwnerSheetIndex="1,0" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+      </Item>
+      <Item name="" identifier="headset" ID="3732" markedfordeconstruction="false" rect="-739,12,24,31" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mobileradio,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+        <WifiComponent TeamID="Team1" Range="35000" Channel="0" AllowCrossTeamCommunication="False" LinkToChat="True" MinChatMessageInterval="0" DiscardDuplicateChatMessages="False" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" channelmemory="0,1,2,3,4,5,6,7,8,9" />
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="captainscap1" ID="3733" markedfordeconstruction="false" rect="-745,7,35,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.4" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="captainsuniform1" ID="3734" markedfordeconstruction="false" rect="-758,16,62,38" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="clothing,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" variant="1" />
+      </Item>
+      <Item name="" identifier="toolbelt" ID="3735" markedfordeconstruction="false" rect="-755,10,56,27" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,tool,mobilecontainer" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="7">
+        <Wearable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgEquipSelect" variant="1" />
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpUse" />
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3736,3737;3738;3739;3740;3741;3742;3743,3744,3745;3746,3747,3748;3749;3750;3751;3752;3753;3754;3755;3756;3757;3758;3759" ExtraStackSize="0" />
+        <itemstats />
+        <inventory>
+          <Item name="" identifier="oxygentank" ID="3736" markedfordeconstruction="false" rect="-731,13,12,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="refillableoxygensource,oxygensource,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="99.98629" i="0">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3737" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3738" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3739" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3740" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3741" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3742" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibleeding1" ID="3743" markedfordeconstruction="false" rect="-732,7,13,21" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="1">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="adrenaline" ID="3744" markedfordeconstruction="false" rect="-734,14,18,36" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="syringe,chem,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="2">
+            <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="antibloodloss1" ID="3745" markedfordeconstruction="false" rect="-746,8,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood1,petfood3,chem,petfood2,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="antibloodloss1" ID="3746" markedfordeconstruction="false" rect="-746,8,41,23" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="petfood1,petfood3,chem,petfood2,medical,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.6" HiddenInGame="False" conditionpercentage="100" i="3">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="weldingfueltank" ID="3747" markedfordeconstruction="false" rect="-731,13,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="weldingfuel,weldingtoolfuel,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="4">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3748" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3749" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3750" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3751" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3752" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3753" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3754" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3755" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3756" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3757" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3758" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3759" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="5">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="underwaterscooter" ID="3760" markedfordeconstruction="false" flippedx="true" rect="-762,22,70,51" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="provocative,scooter,smallitem,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="8">
+        <LightComponent Range="500" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="220,255,150,200" MinVoltage="0.5" PowerConsumption="10" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Propulsion Force="150" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="mobilebattery" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </Propulsion>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3761" ExtraStackSize="0" />
+        <inventory>
+          <Item name="" identifier="batterycell" ID="3761" markedfordeconstruction="false" flippedx="true" rect="-734,1,17,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mobilebattery,loadable,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="93.379974" i="0">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="revolver" ID="3762" markedfordeconstruction="false" rect="-746,7,38,20" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="pistolitem,gunsmith,mountableweapon,weapon,gun,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="9">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <RangedWeapon Penetration="0" DualWieldReloadTimePenaltyMultiplier="1.75" DualWieldAccuracyPenalty="8" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="revolverammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </RangedWeapon>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3763;3764;3765;3766;3767;3768" ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <itemstats />
+        <inventory>
+          <Item name="" identifier="revolverround" ID="3763" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3764" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3765" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3766" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3767" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="revolverround" ID="3768" markedfordeconstruction="false" rect="-730,-2,10,3" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="revolverammo,pistolammoitem,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="harpoongun" ID="3769" markedfordeconstruction="false" rect="-772,6,90,19" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,gunsmith,mountableweapon,weapon" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="10">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <RangedWeapon Penetration="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="harpoonammo" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </RangedWeapon>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3770;3771;3772;3773;3774;3775,3776" ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <itemstats />
+        <inventory>
+          <Item name="" identifier="spear" ID="3770" markedfordeconstruction="false" rect="-754,-6,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3771" markedfordeconstruction="false" rect="-754,-4,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3772" markedfordeconstruction="false" rect="-754,-2,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3773" markedfordeconstruction="false" rect="-754,0,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3774" markedfordeconstruction="false" rect="-754,2,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="spear" ID="3775" markedfordeconstruction="false" rect="-754,4,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="0">
+            <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+          <Item name="" identifier="flashlight" ID="3776" markedfordeconstruction="false" rect="-719,13,24,9" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="provocative,tool,smallitem,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="1">
+            <LightComponent Range="800" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.02" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="127,127,127,255" MinVoltage="0.5" PowerConsumption="10" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <LightComponent Range="800" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.8" FlickerSpeed="1" PulseFrequency="0.1" PulseAmount="0.5" BlinkFrequency="0" LightColor="127,127,127,255" MinVoltage="0.5" PowerConsumption="10" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3777" ExtraStackSize="0" />
+            <inventory>
+              <Item name="" identifier="batterycell" ID="3777" markedfordeconstruction="false" rect="-716,13,17,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mobilebattery,loadable,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="91.34815" i="0">
+                <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+                <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+              </Item>
+            </inventory>
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="spear" ID="3778" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3779" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3780" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3781" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3782" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3783" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="11">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3784" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3785" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3786" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3787" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3788" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="spear" ID="3789" markedfordeconstruction="false" rect="-769,-1,84,5" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="mediumitem,harpoonammo" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="12">
+        <Pickable PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Rope PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <Projectile PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="weldingtool" ID="3790" markedfordeconstruction="false" rect="-765,19,76,44" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="tool,mountableweapon,weldingequipment,smallitem,light" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="15">
+        <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <LightComponent Range="150" CastShadows="True" DrawBehindSubs="False" IsOn="False" Flicker="0.5" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0" LightColor="255,229,178,100" MinVoltage="0" PowerConsumption="0" Voltage="1" VulnerableToEMP="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <RepairTool BarrelRotation="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="">
+          <requireditem items="weldingtoolfuel,oxygensource" type="Contained" characterinventoryslottype="None" optional="false" ignoreineditor="false" excludebroken="true" requireempty="false" excludefullcondition="false" targetslot="-1" allowvariants="true" rotation="0" setactive="false" />
+        </RepairTool>
+        <ItemContainer ContainableRestrictions="" AutoFill="True" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" contained="3791" ExtraStackSize="0" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+        <inventory>
+          <Item name="" identifier="weldingfueltank" ID="3791" markedfordeconstruction="false" flippedx="true" rect="-727,-5,11,33" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="weldingfuel,weldingtoolfuel,smallitem" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="23.960415" i="0">
+            <Holdable SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+            <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+          </Item>
+        </inventory>
+      </Item>
+      <Item name="" identifier="screwdriver" ID="3792" markedfordeconstruction="false" rect="-743,0,32,7" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="screwdriveritem,tool,electricalrepairtool,smallitem,simpletool" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="16">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+      <Item name="" identifier="wrench" ID="3793" markedfordeconstruction="false" rect="-743,2,32,10" NonInteractable="False" NonPlayerTeamInteractable="False" AllowSwapping="True" Rotation="0" Scale="0.5" SpriteColor="255,255,255,255" InventoryIconColor="255,255,255,255" ContainerColor="255,255,255,255" InvulnerableToDamage="False" Tags="wrenchitem,tool,mechanicalrepairtool,mountableweapon,smallitem,simpletool" DisplaySideBySideWhenLinked="False" DisallowedUpgrades="" SpriteDepth="0.55" HiddenInGame="False" conditionpercentage="100" i="17">
+        <MeleeWeapon Swing="True" SwingPos="2,0" SwingForce="3,-1" SpriteDepthWhenDropped="0.55" PickingTime="0" CanBePicked="True" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="ItemMsgPickUpSelect" />
+        <Quality QualityLevel="0" PickingTime="0" CanBePicked="False" LockGuiFramePosition="False" GuiFrameOffset="0,0" AllowInGameEditing="True" Msg="" />
+      </Item>
+    </inventory>
+    <health>
+      <Affliction identifier="inspirationalleader" strength="1" />
+      <Affliction identifier="camaraderie" strength="1" />
+      <LimbHealth i="0" />
+      <LimbHealth i="1" />
+      <LimbHealth i="2" />
+      <LimbHealth i="3" />
+      <LimbHealth i="4" />
+      <LimbHealth i="5" />
+    </health>
+    <orders />
+    <Wallet balance="1249" rewarddistribution="20" />
   </CharacterCampaignData>
 </CharacterData>
